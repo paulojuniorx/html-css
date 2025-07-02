@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        #container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquid reiciendis voluptatem at labore corrupti aliquam iure, dolorem, ea pariatur praesentium recusandae cupiditate sit, ducimus perspiciatis reprehenderit accusamus architecto non?</p>
+    <div id="container">
+        <table>
+            <caption>Relatório de Produtos por Mês - 2025</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Janeiro</th>
+                    <th>Fevereiro</th>
+                    <th>Março</th>
+                    <th>Abril</th>
+                    <th>Maio</th>
+                    <th>Junho</th>
+                    <th>Julho</th>
+                    <th>Agosto</th>
+                    <th>Setembro</th>
+                    <th>Outubro</th>
+                    <th>Novembro</th>
+                    <th>Dezembro</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produto A</td>
+                    <td>120</td><td>98</td><td>145</td><td>110</td><td>130</td><td>125</td><td>140</td><td>135</td><td>150</td><td>160</td><td>170</td><td>180</td>
+                    <td>1.663</td>
+                </tr>
+                <tr>
+                    <td>Produto B</td>
+                    <td>340</td><td>310</td><td>290</td><td>305</td><td>330</td><td>345</td><td>320</td><td>310</td><td>355</td><td>340</td><td>360</td><td>380</td>
+                    <td>3.985</td>
+                </tr>
+                <tr>
+                    <td>Produto C</td>
+                    <td>210</td><td>275</td><td>220</td><td>200</td><td>250</td><td>260</td><td>230</td><td>240</td><td>260</td><td>270</td><td>280</td><td>300</td>
+                    <td>2.995</td>
+                </tr>
+                <tr>
+                    <td>Produto D</td>
+                    <td>150</td><td>160</td><td>180</td><td>170</td><td>190</td><td>195</td><td>175</td><td>185</td><td>200</td><td>210</td><td>220</td><td>230</td>
+                    <td>2.145</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
